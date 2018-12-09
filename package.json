@@ -1,0 +1,33 @@
+{
+  "name": "teamtreehouse-techdegree-project-06",
+  "version": "1.0.0",
+  "description": "Team treehouse FSJS Techdegree project 6",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKozma81/Teamtreehouse-techdegree-project-06.git"
+  },
+  "keywords": [
+    "javasscript",
+    "node",
+    "express",
+    "pug"
+  ],
+  "author": "Kozma János",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JKozma81/Teamtreehouse-techdegree-project-06/issues"
+  },
+  "homepage": "https://github.com/JKozma81/Teamtreehouse-techdegree-project-06#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
