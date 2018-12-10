@@ -1,0 +1,12 @@
+exports.createError = (req, res, next) => {
+  const err = new Error('Page not found!');
+  err.status= 404;
+  next(err);
+};
+
+exports.getError = (err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status);
+  console.error(err.status, err.message)
+  res.send('Error 404');
+};
