@@ -9,8 +9,7 @@ exports.getProjectPage = (req, res, next) => {
   console.dir(req.params);
   console.dir(parseInt(projectId));
   if (parseInt(projectId) > projectsNum || parseInt(projectId) < 1 || isNaN(parseInt(projectId)) || parseInt(projectId) === undefined) {
-    next();
-    return;
+    return next();
   }
   res.render('project');
 };
