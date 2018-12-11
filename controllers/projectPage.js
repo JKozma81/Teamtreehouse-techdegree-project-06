@@ -1,5 +1,4 @@
 const projectModel = require('../models/projectModel');
-const errorCtrl = require('../controllers/errorPage');
 
 // Render project detail page layout for the choosen project
 exports.getProjectPage = (req, res, next) => {

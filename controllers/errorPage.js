@@ -1,4 +1,3 @@
-
 // Create error message
 exports.createError = (req, res, next) => {
   const err = new Error('Page not found!');
