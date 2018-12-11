@@ -4,8 +4,7 @@
   "description": "Team treehouse FSJS Techdegree project 6",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

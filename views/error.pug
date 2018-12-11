@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(class="no-js" lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Error on the page
+    link(href="https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster" rel="stylesheet")
+    link(rel='stylesheet', href='/static/css/foundation.css')
+    link(rel='stylesheet', href='/static/css/style.css')
+  body
+    .container
+      .textcontainer
+        h1.errorCode #{error.status}
+        h2.errorText #{error.message}
+        pre.errorDesc #{error.stack}
+        a.button.errorBtn(href='/') << Return to Home page
+
+  script(src='/static/js/vendor/jquery.js')
+  script(src='/static/js/vendor/foundation.js')

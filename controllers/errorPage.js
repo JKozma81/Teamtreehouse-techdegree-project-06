@@ -11,5 +11,5 @@ exports.getError = (err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
   console.error(err.status, err.message)
-  res.send('Error 404');
+  res.render('../views/error.pug');
 };
