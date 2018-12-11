@@ -1,4 +1,8 @@
+const projectModel = require('../models/projectModel');
+
+// Render project detail page layout for the choosen project
 exports.getProjectPage = (req, res, next) => {
-  console.log(req.params);
+  const projectId = req.params.projectId;
+  res.locals.project = projectModel.getProjectData(projectId);
   res.render('project');
 };

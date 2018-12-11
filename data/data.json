@@ -1,62 +1,76 @@
-[
-  {
+[{
     "id": "1",
-    "project_name": "",
-    "description": "",
-    "technologies": [{"name":"", "icon":""}],
-    "live_link": "",
-    "github_link": "",
-    "thumbnail": "",
-    "image_urls": ["", ""]
+    "project_name": "A Random Quote Generator",
+    "description": "In this project, i created an app that displays random famous quotes after a certain time has passed or each time a button is clicked. The background color is changing automaticaly to.",
+    "technologies": [{"name":"HTML5", "icon":"/static/img/html5.png"},
+                     {"name":"CSS3", "icon":"/static/img/css3.png"},
+                     {"name":"JavaScript", "icon":"/static/img/javascript.png"}],
+    "live_link": "https://jkozma81.github.io/Teamtreehouse-techdegree-project-01/",
+    "github_link": "https://github.com/JKozma81/Teamtreehouse-techdegree-project-01",
+    "thumbnail": "/static/img/project-1-thumbnail.png",
+    "image_urls": ["/static/img/project-1-1-desc.png", "/static/img/project-1-2-desc.png"]
   },
   {
     "id": "2",
-    "project_name": "",
-    "description": "",
-    "technologies": [{"name":"", "icon":""}],
-    "live_link": "",
-    "github_link": "",
-    "thumbnail": "",
-    "image_urls": ["", ""]
+    "project_name": "List Pagination and Filtering",
+    "description": "In this project, i enhanced the usability of a web page that is displaying way too much information all at once. Long lists don't make for a good user experience on a web page. To make it easier for the user to find information and read the page, i added to this project a popular web development technique known as 'pagination'. While making these improvements, i adhered to an important development principle known as 'progressive enhancement'. Which in this case basically just means that i added JavaScript to enhance the web page, without making the web page dependent upon the JavaScript that are added. In other words, i added JavaScript to paginate and improve the project, without altering the project in such a way that JavaScript becomes required to use or view the web page. With 'progressive enhancement' in mind, i have writen the code to take this default list of 54 students and break it up into separate pages that display only 10 students at a time. Additionally, i programmitcally added buttons to the bottom of the page that allow users to navigate through the list, 10 students at a time. In addition i added a search feature to the project to.My pagination solution is dynamic, meaning it is working for any list containing any number of items.",
+    "technologies": [{"name":"HTML5", "icon":"/static/img/html5.png"},
+                     {"name":"CSS3", "icon":"/static/img/css3.png"},
+                     {"name":"JavaScript", "icon":"/static/img/javascript.png"}],
+    "live_link": "https://jkozma81.github.io/Teamtreehouse-techdegree-project-02/",
+    "github_link": "https://github.com/JKozma81/Teamtreehouse-techdegree-project-02",
+    "thumbnail": "/static/img/project-2-thumbnail.png",
+    "image_urls": ["/static/img/project-2-1-desc.png", "/static/img/project-2-2-desc.png", "/static/img/project-2-3-desc.png"]
   },
   {
     "id": "3",
-    "project_name": "",
-    "description": "",
-    "technologies": [{"name":"", "icon":""}],
-    "live_link": "",
-    "github_link": "",
-    "thumbnail": "",
-    "image_urls": ["", ""]
+    "project_name": "Interactive Form",
+    "description": "In this project, i used JavaScript to enhance an interactive registration form for a fictional conference called 'FullStack Conf'. Using the supplied HTML and CSS files, i added my own JavaScript to make the form more user-friendly by - added customized and conditional behavior and interactivity, - validating user input and providing helpful error messages when the user enters invalid information into the form fields. Instead of plain 'vanilla' JavaScript, i used the popular jQuery library to complete this project. While it's important for a developer to have a solid understanding and familiarity of plain vanilla JavaScript, it's also important to be able to understand and work with jQuery since it is so common and prevalent on the web. The benefits of using jQuery are: - Shorter and simplified syntax. - Help with cross-browser compatibility since jQuery deals with a lot of that stuff under the hood.",
+    "technologies": [{"name":"HTML5", "icon":"/static/img/html5.png"},
+                     {"name":"CSS3", "icon":"/static/img/css3.png"},
+                     {"name":"JavaScript", "icon":"/static/img/javascript.png"},
+                     {"name":"jQuery", "icon":"/static/img/jquery.png"}],
+    "live_link": "https://jkozma81.github.io/Teamtreehouse-techdegree-project-03/",
+    "github_link": "https://github.com/JKozma81/Teamtreehouse-techdegree-project-03",
+    "thumbnail": "/static/img/project-3-thumbnail.png",
+    "image_urls": ["/static/img/project-3-1-desc.png", "/static/img/project-3-2-desc.png"]
   },
   {
     "id": "4",
-    "project_name": "",
-    "description": "",
-    "technologies": [{"name":"", "icon":""}],
-    "live_link": "",
-    "github_link": "",
-    "thumbnail": "",
-    "image_urls": ["", ""]
+    "project_name": "OOP Game Show App: Phrase Hunter",
+    "description": "This project, is a browser-based, word guessing game: 'Phrase Hunter.' I used JavaScript and OOP /Object Oriented Programming/ to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard. The program choose a random phrase, split the phrase into letters, and put those letters onto the gameboard. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the game board displays the chosen letters on the screen. A player continues to select letters until they guess they phrase and win, or make five incorrect guesses and lose. If the player completes the phrase before they run out of guesses, a winning screen appears. If the player guesses incorrectly 5 times, a losing screen appears. A player can guess a letter only once. After they’ve guessed a letter, the programm disables that letter on the onscreen keyboard.",
+    "technologies": [{"name":"HTML5", "icon":"/static/img/html5.png"},
+                     {"name":"CSS3", "icon":"/static/img/css3.png"},
+                     {"name":"JavaScript", "icon":"/static/img/javascript.png"}],
+    "live_link": "https://jkozma81.github.io/Teamtreehouse-techdegree-project-04/",
+    "github_link": "https://github.com/JKozma81/Teamtreehouse-techdegree-project-04",
+    "thumbnail": "/static/img/project-4-thumbnail.png",
+    "image_urls": ["/static/img/project-4-1-desc.png", "/static/img/project-4-2-desc.png", "/static/img/project-4-3-desc.png", "/static/img/project-4-4-desc.png"]
   },
   {
     "id": "5",
-    "project_name": "",
-    "description": "",
-    "technologies": [{"name":"", "icon":""}],
-    "live_link": "",
-    "github_link": "",
-    "thumbnail": "",
-    "image_urls": ["", ""]
+    "project_name": "Public API Requests",
+    "description": "For this project, i made an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. I used the Random User Generator API 'https://randomuser.me/' to grab information for 12 random 'employees,' and use that data to build a prototype for an Awesome Startup employee directory. I requested a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+    "technologies": [{"name":"HTML5", "icon":"/static/img/html5.png"},
+                     {"name":"CSS3", "icon":"/static/img/css3.png"},
+                     {"name":"JavaScript", "icon":"/static/img/javascript.png"}],
+    "live_link": "https://jkozma81.github.io/Teamtreehouse-techdegree-project-05/",
+    "github_link": "https://github.com/JKozma81/Teamtreehouse-techdegree-project-05",
+    "thumbnail": "/static/img/project-5-thumbnail.png",
+    "image_urls": ["/static/img/project-5-1-desc.png", "/static/img/project-5-2-desc.png"]
   },
   {
     "id": "6",
-    "project_name": "",
-    "description": "",
-    "technologies": [{"name":"", "icon":""}],
+    "project_name": "Static Node.js and Express Site: Portfolio Site",
+    "description": "In this project, i created a gorgeous portfolio site to showcase the great projects i've built. The site contains a modern landing page, an about page where i share contact info, practice my elevator pitch and talk a little about myself, and a series of project pages to show off and detail my first five projects from this Techdegree. I created a JSON file to store all the data about the projects i've created. I used Pug to complete provided templates that utilize the JSON to generate the markup that is ultimately displayed in the browser. I used Node.js and Express to: import the required dependencies, link the JSON with the Pug templates, set up routes to handle requests, set up the middleware to utilize static files like CSS, handle errors and set up a server to serve the project.",
+    "technologies": [{"name":"HTML5", "icon":"/static/img/html5.png"},
+                     {"name":"CSS3", "icon":"/static/img/css3.png"},
+                     {"name":"JavaScript", "icon":"/static/img/javascript.png"},
+                     {"name":"Node.js", "icon":"/static/img/nodejs.png"},
+                     {"name":"Express", "icon":"/static/img/expressjs.png"},
+                     {"name":"Pug(Jade)", "icon":"/static/img/pug.png"}],
     "live_link": "",
-    "github_link": "",
-    "thumbnail": "",
-    "image_urls": ["", ""]
-  }
-]
+    "github_link": "https://github.com/JKozma81/Teamtreehouse-techdegree-project-06",
+    "thumbnail": "/static/img/project-6-thumbnail.png",
+    "image_urls": ["/static/img/project-6-1-desc.png","/static/img/project-6-2-desc.png"]
+}]
