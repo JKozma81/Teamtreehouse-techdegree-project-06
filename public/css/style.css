@@ -130,6 +130,7 @@ a:hover{
 
   .portfolio-index .cell {
     margin-bottom: 15px;
+    transition: all .9s;
   }
 
 
@@ -165,6 +166,7 @@ body {
   background-color: #D9E5D6;
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .portfolio-index .cell img{
@@ -173,7 +175,6 @@ body {
 }
 .portfolio-index .cell:hover {
   transform: scale(1.1);
-  transition: all .9s;
 }
 
 .portfolio-index .cell:hover img{
@@ -229,7 +230,7 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 17%;
+  left: 13%;
   top: 35%;
   padding: 10px;
 }
