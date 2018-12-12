@@ -13,6 +13,5 @@ Note: I have been altered the CSS styling a little bit:
  - Replaced the font with two new one
  - Added new colors
  - Added new background color
- - Added a little bit of text shadow
  - Added a little bit of opacity and scaling on hover
  - Added a logo and copyright text to the sidebar

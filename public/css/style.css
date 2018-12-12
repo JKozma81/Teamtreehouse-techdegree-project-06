@@ -1,12 +1,8 @@
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Lobster', cursive;
+  font-family: 'Proza Libre', sans-serif;
   color: #13505B;
 }
-
-  h1 {
-    text-shadow: 5px 5px 10px #000;
-  }
 
   h5{
     letter-spacing: 2.5px;
@@ -22,7 +18,7 @@ h1,h2,h3,h4,h5,h6{
   }
 
   p{
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #13505B;
   }
@@ -32,7 +28,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .text-light{
-  color: #666;
+  color: #13505B;
 }
 
 .button{
@@ -70,11 +66,11 @@ a:hover{
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #13505B;
   }
 
   .portfolio-me a{
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #13505B;
     font-size: 13px;
@@ -94,13 +90,13 @@ a:hover{
   background-color: #D9E5D6;
 }
 
- .portfolio-breadcrumb a{
-  font-family: 'Cabin', sans-serif;
-   font-weight: 600;
-   font-size: 13px;
-   letter-spacing: 2.5px;
-   -webkit-text-transform: uppercase;
-   text-transform: uppercase;
+.portfolio-breadcrumb a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
  }
 
 .portfolio-intro{
@@ -152,7 +148,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: #13505B;
 }
 
 .portfolio-bio{
