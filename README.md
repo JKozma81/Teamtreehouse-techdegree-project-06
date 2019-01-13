@@ -15,3 +15,14 @@ Note: I have been altered the CSS styling a little bit:
  - Added new background color
  - Added a little bit of opacity and scaling on hover
  - Added a logo and copyright text to the sidebar
+
+Important note: To run this project you will need node js insstalled on your computer.
+(You can get the most recent version from: https://nodejs.org/en/)
+
+When node is installed go to the project directory and run the command below in your terminal to install the required dependecies
+  
+  npm insstall
+  
+After the installation finishes you can start the project from your terminal with the command below
+  
+  npm start
