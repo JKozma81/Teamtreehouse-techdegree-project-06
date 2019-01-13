@@ -22,10 +22,10 @@ Important note: To run this project you will need node js insstalled on your com
 
 When node is installed go to the project directory and run the command below in your terminal to install the required dependecies
   
-  npm insstall
+  npm install
   
 After the installation finishes you can start the project from your terminal with the command below
   
   npm start
-=======
->>>>>>> 570e6cdc053756875a9b3fe8d33a9b0d6c6075c9
+
+
