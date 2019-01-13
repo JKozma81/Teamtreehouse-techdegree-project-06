@@ -17,7 +17,7 @@ Note: I have been altered the CSS styling a little bit:
  - Added a logo and copyright text to the sidebar
 <<<<<<< HEAD
 
-Important note: To run this project you will need node js insstalled on your computer.
+Important note: To run this project you will need node js installed on your computer.
 (You can get the most recent version from: https://nodejs.org/en/)
 
 When node is installed go to the project directory and run the command below in your terminal to install the required dependecies
